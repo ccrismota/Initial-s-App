@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         //tamanho da seekbar
         seekbar.max = 1000
 
-        //definir lista para a seekbar
+        //definindo lista para a seekbar
         seekbar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener{
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 valorGasolina = progress
